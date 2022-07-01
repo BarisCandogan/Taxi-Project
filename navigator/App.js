@@ -8,12 +8,12 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import MapScreen from '../screens/CarScreen';
-import HomeDisplay from '../screens/HomeDisplay';
+import MapScreen from '../Screens/CarScreen';
+import HomeDisplay from '../Screens/HomeDisplay';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import BikeScreen from '../screens/BikeScreen';
+import BikeScreen from '../Screens/BikeScreen';
 
 const App = () => {
   const Stack = createNativeStackNavigator();
