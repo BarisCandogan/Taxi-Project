@@ -11,7 +11,6 @@ import {
 import MapScreen from '../screens/CarScreen';
 import HomeDisplay from '../screens/HomeDisplay';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
-import Icon from 'react-native-vector-icons/MaterialIcons';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import BikeScreen from '../screens/BikeScreen';
