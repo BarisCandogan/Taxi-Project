@@ -2,9 +2,6 @@ import {StyleSheet, Text, View, SafeAreaView, Image} from 'react-native';
 import React from 'react';
 import tw from 'tailwind-react-native-classnames';
 import NavSettings from '../components/NavSettings';
-import {GooglePlacesAutocomplete} from 'react-native-google-places-autocomplete';
-import {GOOGLE_MAPS_APIKEY} from '@env';
-import {setDestination, setOrigin} from '../Slices/navSlice';
 
 const HomeDisplay = () => {
   return (

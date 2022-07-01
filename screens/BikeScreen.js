@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, SafeAreaView} from 'react-native';
+import {StyleSheet, View, SafeAreaView} from 'react-native';
 import React from 'react';
 import tw from 'tailwind-react-native-classnames';
 import Bike from '../components/Bike';
