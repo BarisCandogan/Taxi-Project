@@ -8,7 +8,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import MapScreen from '../screens/MapScreen';
+import MapScreen from '../screens/CarScreen';
 import HomeDisplay from '../screens/HomeDisplay';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -28,7 +28,7 @@ const App = () => {
             options={{headerShown: false}}
           />
           <Stack.Screen
-            name="MapScreen"
+            name="CarScreen"
             component={MapScreen}
             options={{headerShown: false}}
           />

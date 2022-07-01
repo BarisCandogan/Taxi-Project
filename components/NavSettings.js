@@ -18,7 +18,7 @@ const data = [
     title: 'get a car',
     image:
       'https://previews.123rf.com/images/igoun/igoun1810/igoun181000081/109842072-car-vector-icon-isolated-simple-front-car-logo-illustration-sign.jpg',
-    screen: 'MapScreen',
+    screen: 'CarScreen',
   },
   {
     id: '456',
